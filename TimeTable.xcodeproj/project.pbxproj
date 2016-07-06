@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FACDCAF61D2C73E8006619CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDCAF51D2C73E8006619CE /* AppDelegate.swift */; };
-		FACDCAF81D2C73E8006619CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDCAF71D2C73E8006619CE /* ViewController.swift */; };
 		FACDCAFB1D2C73E8006619CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACDCAF91D2C73E8006619CE /* Main.storyboard */; };
 		FACDCAFD1D2C73E8006619CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACDCAFC1D2C73E8006619CE /* Assets.xcassets */; };
 		FACDCB001D2C73E8006619CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACDCAFE1D2C73E8006619CE /* LaunchScreen.storyboard */; };
 		FACDCB0B1D2C73E8006619CE /* TimeTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDCB0A1D2C73E8006619CE /* TimeTableTests.swift */; };
 		FACDCB161D2C73E8006619CE /* TimeTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDCB151D2C73E8006619CE /* TimeTableUITests.swift */; };
+		FACDCB241D2CAEF6006619CE /* DayCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDCB231D2CAEF6006619CE /* DayCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		FACDCAF21D2C73E7006619CE /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACDCAF51D2C73E8006619CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FACDCAF71D2C73E8006619CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FACDCAFA1D2C73E8006619CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FACDCAFC1D2C73E8006619CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACDCAFF1D2C73E8006619CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		FACDCB111D2C73E8006619CE /* TimeTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACDCB151D2C73E8006619CE /* TimeTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableUITests.swift; sourceTree = "<group>"; };
 		FACDCB171D2C73E8006619CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACDCB231D2CAEF6006619CE /* DayCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				FACDCAF51D2C73E8006619CE /* AppDelegate.swift */,
-				FACDCAF71D2C73E8006619CE /* ViewController.swift */,
 				FACDCAF91D2C73E8006619CE /* Main.storyboard */,
 				FACDCAFC1D2C73E8006619CE /* Assets.xcassets */,
 				FACDCAFE1D2C73E8006619CE /* LaunchScreen.storyboard */,
 				FACDCB011D2C73E8006619CE /* Info.plist */,
+				FACDCB231D2CAEF6006619CE /* DayCollectionViewController.swift */,
 			);
 			path = TimeTable;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACDCAF81D2C73E8006619CE /* ViewController.swift in Sources */,
+				FACDCB241D2CAEF6006619CE /* DayCollectionViewController.swift in Sources */,
 				FACDCAF61D2C73E8006619CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
